@@ -35,6 +35,13 @@ body{
     padding: 10px 24px;
     color: white;
     border: none;
+    transition: all .5s ease-in-out;
+}
+.button:hover{
+    font-size: 25px;
+    background: #3DBAFD;
+    color: black;
+    border-radius: 25px; 
 }
 .top-banner-pic img{
     width: 556px;
