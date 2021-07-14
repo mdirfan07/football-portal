@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 /* Common Style */
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -9,6 +10,7 @@ body{
 }
 
 /* Top Banner Section Start */
+
 .top-banner{
     display: flex;
     background: #2D25A0;
@@ -38,5 +40,28 @@ body{
     width: 556px;
     height: 438px;
 }
+
 /* Top Banner Section End */
 
+/* Football Portal Section Start */
+
+.football-portal{
+    margin: 70px;
+    
+}
+.footballer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px;
+    
+}
+.footballer-info{
+    width: 300px;
+    box-shadow: 0px 0px 40px lightgrey;
+    padding: 15px;
+}
+.footballer-pic img{
+    width: 300px;
+}
+
+/* Football Portal Section End */
