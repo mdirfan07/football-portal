@@ -103,3 +103,46 @@ body{
 }
 
 /* Footer End */
+
+/* Media Query */
+/* For Mobile */
+@media only screen and (max-width:688px) {
+    .top-banner{
+        flex-direction: column;
+    }
+    .top-banner-name{
+        font-size: 36px;
+    }
+    .top-banner-pic img{
+        width: 330px;
+        height: 260px;
+    }
+    .footballer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-logo img{
+        width: 300px;
+    }
+    .social{
+        font-size: 26px;
+    }
+}
+/* For Tablet */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .top-banner-name{
+        font-size: 36px;
+    }
+    .top-banner-pic img{
+        width: 330px;
+        height: 250px;
+    }
+    .footballer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-logo img{
+        width: 400px;
+    }
+    .social{
+        font-size: 28px;
+    }
+}
